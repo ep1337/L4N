@@ -184,7 +184,7 @@ a:link {
     width: 100%;
     max-width: 200px;
     background: #530079;
-    color: #1b1b27;
+    color: #ffffff;
     border: 1px solid #530079;
     border-radius: 9px;
     padding: 9px 9px;
@@ -204,16 +204,16 @@ a:link {
 }
 .home-content .btn:hover, .home-content .btn:active {
     background: #00790a;
-    color: #1b1b27;
+    color: #ffffff;
     border: 2px solid #00790a;
 }
 
 .btn, .btn:visited  {
     width: 100%;
     max-width: 180px;
-    background: #f08527;
+    background: #530079;
     color: #1b1b27;
-    border: 2px solid #f08527;
+    border: 2px solid #530079;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -225,9 +225,9 @@ a:link {
 }
 
 .btn:hover, .btn:focus, .btn:active {
-    background: #74b44a;
+    background: #00790a;
     color: #F1F1F1;
-    border: 2px solid #74b44a;
+    border: 2px solid #00790a;
 }
 
 
