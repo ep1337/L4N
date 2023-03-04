@@ -205,7 +205,7 @@ a:link {
 .home-content .btn:hover, .home-content .btn:active {
     background: #150a79;
     color: #ffffff;
-    border: 2px solid #150a79;
+    border: 1px solid #150a79;
 }
 
 .btn, .btn:visited  {
