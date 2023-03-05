@@ -87,24 +87,18 @@ figcaption{
 
 .install-content {
     color: #F1F1F1;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); 
-    grid-auto-rows: 1fr;
-    grid-gap: 30px;
+    display: block;
     padding: 12px;
 }
 
 .install-item {
     display:grid;
     align-items: center;
-    grid-template-rows: auto; 
-    grid-auto-rows: auto;
 }
 
 .install-header{
-    display:grid;
+    display:flex;
     justify-content: center;
-    grid-auto-rows: auto;
     align-items: center;
 }
 
@@ -198,6 +192,7 @@ a:link {
     text-align: center;
     margin: 12px auto 24px;
     display: block;
+    transition: 0.5s;
 }
 
 .home-content .btn:focus {
@@ -225,15 +220,54 @@ a:link {
     text-align: center;
     margin: 12px 0 24px;
     display: block;
+    transition: 0.5s;
 }
 
 .btn:hover, .btn:focus, .btn:active {
     background: #150a79;
     color: #F1F1F1;
     border: 2px solid #150a79;
+    transition: 0.5s;
+}
+
+/* Accordion for the install guide */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
 }
 
 
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2796"; 
+}
 
 /* Typography */
 
@@ -333,19 +367,11 @@ footer {
 }
 
 
-.download-photo {
-    width: 100%;
-    max-width: 100%;
-}
 
 
 
 @media only screen and (min-width: 768px) {
 	
-    .download-photo {
-        max-width: 75%;
-        max-height: 75%;
-    }
 
     .install-content {
         grid-template-columns: repeat(3, 1fr); 
