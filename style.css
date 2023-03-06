@@ -9,9 +9,6 @@ body {
 
 /* Layout */
 
-figcaption{
-    font-style: italic;
-}
 
 .header-container {
     background: #2d313b;
@@ -40,7 +37,7 @@ figcaption{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("images/archbackground.png") center center no-repeat;
+    background: url("images/archbackground.webp") center center no-repeat;
     background-size: cover;
     height: 100vh;
     padding: 0;
@@ -169,9 +166,7 @@ figcaption{
 
 /* Links and Link Buttons */
 
-a {
-    text-decoration: underline;
-}
+
 
 a:visited,
 a:link {
@@ -345,7 +340,7 @@ section p {
 
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #F1F1F1;
     color: white;
   }
   
@@ -361,7 +356,7 @@ section p {
 }
 
 .mobile-nav span a:hover {
-    color: #74b44a;
+    color: #F1F1F1;
 }
 
 footer {
