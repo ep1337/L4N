@@ -99,13 +99,14 @@
 
                         <div class="install-info">
 
-                            <p>+ For Windows users, I recommend using Balena Etcher to get the above .iso file on a USB to boot.</p>
+                            <p>For Windows users, I recommend using Balena Etcher to get the above .iso file on a USB to boot.</p>
 
                         </div>
 
                         <div class="install-button"><a href="https://www.balena.io/etcher" class="btn">Get Balena Etcher &raquo;</a></div>
                     
                     </div>
+                    
         </main>
 
         <div class="install-button">
@@ -141,6 +142,23 @@
         </footer>
 
     </section>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
 
 </body>
 </html>

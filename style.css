@@ -109,14 +109,16 @@ figcaption{
 }
 
 .install-info {
-    display: flex;
+    display: grid;
     align-items: center;
+    justify-items: center;
 }
 
 .install-info p {
     display:grid;
     grid-template-rows: auto;
-    grid-auto-rows: 1fr;
+    justify-items: center;
+    align-content: center;
 }
 
 .install-button {
@@ -233,7 +235,7 @@ a:link {
 /* Accordion for the install guide */
 
 .accordion {
-    background-color: #eee;
+    background-color: #acacac;;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -251,7 +253,7 @@ a:link {
 
 .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: #353a45;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
