@@ -229,7 +229,7 @@ a:link {
 /* Accordion for the install guide */
 
 .accordion {
-    background-color: #acacac;;
+    background-color: #ecf2f5;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -241,7 +241,7 @@ a:link {
 }
 
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #abb2bf;
 }
 
 
