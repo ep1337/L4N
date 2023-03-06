@@ -11,7 +11,7 @@ body {
 
 
 .header-container {
-    background: #2d313b;
+    background: #212227;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body {
 
 
 .header-content {
-    color: #F1F1F1;
+    color: #ecf2f5;
     width: 100%;
     max-width: 1000px;
     display: flex;
@@ -53,7 +53,7 @@ body {
 }
 
 .download-container {
-    background: #444a58;
+    background: #404552;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,9 +77,8 @@ body {
     text-align: center;
     color: #F1F1F1;
     width: 100%;
-    background: #3c424e;
+    background: #11436e;
     padding: 12px 0;
-    background: #3c424e;
 }
 
 .install-content {
@@ -134,7 +133,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #353a45;
+    background: #212227;
     padding: 12px 0;
 }
 
@@ -177,9 +176,9 @@ a:link {
   .home-content .btn, .home-content .btn:visited  {
     width: 100%;
     max-width: 200px;
-    background: #150a7988;
+    background: #1793d188;
     color: #ffffff;
-    border: 1px solid #150a79;
+    border: 1px solid #1793d1;
     border-radius: 9px;
     padding: 9px 9px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -198,17 +197,17 @@ a:link {
     border: 2px solid #333333;
 }
 .home-content .btn:hover, .home-content .btn:active {
-    background: #150a79;
+    background: #1793d1;
     color: #ffffff;
-    border: 1px solid #150a79;
+    border: 1px solid #1793d1;
 }
 
 .btn, .btn:visited  {
     width: 100%;
     max-width: 180px;
-    background: #150a7988;
+    background: #1793d188;
     color: #ffffff;
-    border: 2px solid #150a79;
+    border: 2px solid #1793d1;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -221,9 +220,9 @@ a:link {
 }
 
 .btn:hover, .btn:focus, .btn:active {
-    background: #150a79;
+    background: #1793d1;
     color: #F1F1F1;
-    border: 2px solid #150a79;
+    border: 2px solid #1793d1;
     transition: 0.5s;
 }
 
