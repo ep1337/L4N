@@ -170,6 +170,7 @@ body {
 a:visited,
 a:link {
     color: white;
+    text-decoration: none;
 }
 
 
@@ -241,7 +242,7 @@ a:link {
 }
 
 .active, .accordion:hover {
-    background-color: #abb2bf;
+    background-color: #d7dbdd;
 }
 
 
@@ -349,7 +350,7 @@ section p {
 
 
 .mobile-nav span a {
-    font-size: 20px;
+    font-size: 36px;
     padding: 8px;
     color: #F1F1F1;
 }
