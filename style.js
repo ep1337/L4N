@@ -1,3 +1,5 @@
+/* Top Nav */
+
 function topNavFunction() {
     var x = document.getElementById("topnav");
     if (x.className === "topnav") {
@@ -7,6 +9,7 @@ function topNavFunction() {
     }
 }
 
+/* Accordion */
 
 var acc = document.getElementsByClassName("accordion");
 var i;
