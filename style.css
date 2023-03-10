@@ -310,6 +310,8 @@ section h3 {
 section h4 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 section p {
